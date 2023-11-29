@@ -10,6 +10,15 @@ public class Endereco {
         this.bairro = bairro;
     }
 
+    @Override
+    public String toString() {
+        return "Endereco{" +
+                "rua='" + rua + '\'' +
+                ", complemento='" + complemento + '\'' +
+                ", bairro='" + bairro + '\'' +
+                '}';
+    }
+
     public Endereco() {
 
     }
