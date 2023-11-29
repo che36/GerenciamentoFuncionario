@@ -9,5 +9,12 @@ public class Main {
 
         System.out.println(rua1);
         System.out.println(endereco);
+
+        Vendedor vendedor = new Vendedor();
+        vendedor.setNome("Cesar Vendor");
+        vendedor.setDocumento("13.465.789-00");
+        vendedor.setValorSalario(1000d);
+        vendedor.setEndereco(endereco);
+        System.out.println(vendedor);
     }
 }
