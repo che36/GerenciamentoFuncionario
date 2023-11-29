@@ -10,7 +10,7 @@ public class OperadorCaixa extends FuncionarioCLT {
                 "nome='" + nome + '\'' +
                 ", documento='" + documento + '\'' +
                 ", valorSalario=" + valorSalario +
-                ", endereco=" + endereco +
+                ", endereco=" + endereco.getRua() +
                 '}';
     }
 }
