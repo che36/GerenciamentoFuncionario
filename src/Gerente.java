@@ -9,7 +9,7 @@ public class Gerente extends FuncionarioPJ implements CalculaBonificacao {
 
     @Override
     public String toString() {
-        return "FuncionarioPJ{" +
+        return "Gerente{" +
                 "nome='" + super.getNome() + '\'' +
                 ", documento='" + super.getDocumento() + '\'' +
                 ", valorHora=" + super.getValorHora() +
@@ -20,4 +20,4 @@ public class Gerente extends FuncionarioPJ implements CalculaBonificacao {
                 '}';
     }
 }
-}
+
