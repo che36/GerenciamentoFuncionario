@@ -7,7 +7,7 @@ public abstract class FuncionarioPJ {
     private Integer horasTrabalhadas;
 
     public void calculaRemuneracao() {
-        this.valorHora = this.valorRemuneracao * this.valorHora;
+        this.valorRemuneracao = this.horasTrabalhadas * this.valorHora;
     }
 
     public String getNome() {
@@ -54,4 +54,6 @@ public abstract class FuncionarioPJ {
     public void setHorasTrabalhadas(Integer horasTrabalhadas) {
         this.horasTrabalhadas = horasTrabalhadas;
     }
+
+
 }
