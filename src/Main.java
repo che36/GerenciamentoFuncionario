@@ -15,9 +15,22 @@ public class Main {
         vendedor.setDocumento("13.465.789-00");
         vendedor.setValorSalario(1000d);
         vendedor.setEndereco(endereco);
+        vendedor.calculaBonificacao(5d);
         System.out.println(vendedor);
 
         OperadorCaixa operadorDeCaixa = new OperadorCaixa("Cesar", "13245789-00", 1500d, endereco);
         System.out.println(operadorDeCaixa);
+
+        Gerente gerente = new Gerente();
+        gerente.setNome("Cesar");
+        gerente.setDocumento("123456");
+        gerente.setEndereco(endereco);
+        gerente.setHorasTrabalhadas(20);
+        gerente.setValorHora(50d);
+        gerente.calculaRemuneracao();
+        gerente.calculaBonificacao(3d);
+        System.out.println(gerente);
+
+
     }
 }
